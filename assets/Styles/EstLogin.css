@@ -1,15 +1,54 @@
 body {
-    background-color: brown;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-image:  url(../Resources/img/fodoLogin.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-#Login {
-    color: beige;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    background-color: black;
-    width: 50%;
-    padding: 20px;
-    margin: auto;
-    border-radius: 15%;
+h2{
+    color: aliceblue;
 }
+
+.container {
+    text-align: center;
+    width: 50%;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 7%;
+}
+
+.form {
+    display: inline-block;
+    text-align: left;
+    align-items: center;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input {
+    width: 200px;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+
+button {
+    padding: 10px;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;  
+    margin: 10px 20px 10px 190px ;
+    display: flex;
+    background-color: #4caf50;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
