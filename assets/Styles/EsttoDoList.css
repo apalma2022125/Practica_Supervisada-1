@@ -2,10 +2,10 @@
 	--dark: #374151;
 	--darker: #1F2937;
 	--darkest: #111827;
-	--grey: #6B7280;
+	--grey: #fff;
 	--pink: #EC4899;
 	--purple: #8B5CF6;
-	--light: #EEE;
+	--light: #41705d;
 }
 
 * {
@@ -19,7 +19,9 @@ body {
 	flex-direction: column;
 	min-height: 100vh;
 	color: #FFF;
-	background-color: var(--dark);
+	background-image: url(../Resources/img/fondo1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 header {
@@ -58,7 +60,7 @@ input, button {
 }
 
 #new-task-input::placeholder {
-	color: var(--grey);
+	color: var(--light);
 }
 
 #new-task-submit {
