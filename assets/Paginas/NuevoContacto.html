@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Nuevo Contacto</title>
+    <link rel="stylesheet" href="../Styles/NuevoConta.css">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+</head>
+
+<body>
+
+    <header>
+        <img class="logo" src="../Resources/img/Conctac.png" alt="Logo">
+        <button id="abrir" class="abrir-menu"><i class="bi bi-list"></i></button>
+        <nav class="nav" id="nav">
+            <button class="cerrar-menu" id="cerrar"><i class="bi bi-x"></i></button>
+            <ul class="nav-list">
+                <li><a href="./ContactoFav.html">Contactos_Favoritos</a></li>
+                <li><a href="./NuevoContacto.html">Nuevo_Contacto</a></li>
+                <li><a href="./Perfil.html">Perfil</a></li>
+                <li><a href="./toDolist.html">ToDoList</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="content">
+
+        <h1 class="logo">Nuevo<span>Contacto</span></h1>
+
+        <div class="contact-wrapper animated bounceInUp">
+            <div class="contact-form">
+                <h3>Contacto</h3>
+                <form>
+                    <p>
+                        <label>Nombres</label>
+                        <input type="text" name="fullname">
+                    </p>
+                    <p>
+                        <label>Apellidos</label>
+                        <input type="text" name="email">
+                    </p>
+                    <p>
+                        <label>Numero Celular</label>
+                        <input type="tel" name="phone">
+                    </p>
+                    <p>
+                        <label>Numero De Casa</label>
+                        <input type="tel" name="affair">
+                    </p>
+                    <p class="block">
+                        <label>Descripcion</label>
+                        <textarea name="message" rows="3"></textarea>
+                    </p>
+                    <p class="block">
+                        <button>
+                            Crear
+                        </button>
+                    </p>
+                </form>
+            </div>
+        </div>
+        <script src="../Scripts/LogNuevoContacto.js"></script>
+</body>
+
+</html>

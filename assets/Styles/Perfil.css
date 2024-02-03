@@ -1,11 +1,11 @@
-  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,300&display=swap');
 
 :root{
 
     --main-color: #d3ad7f;  
     --red-color: #da0b0b;  
     --black: #13131a;
-    --bg: #010103;
+   
     --border: .1rem solid rgba(255, 255, 255,.3)
     
 }
@@ -127,71 +127,68 @@ header {
 }
 
 
-.Conctac .box-container {
 
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
-    gap: 1.5rem;
-}
+.perfil .container{
 
-.Conctac .box-container .box {
-
+    height: 450px;
+    width: 300px;
+    box-shadow: 0 10px 20px #000;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
     text-align: center;
-    border: var(--border);
-    padding: 2rem;
+    overflow: hidden;
+    font-family: sans-serif;
 }
 
-.Conctac .box-container .box .icons a {
 
-    height: 5rem;
-    width: 5rem;
-    line-height: 5rem;
-    font-size: 2rem;
-    border: var(--border);
-    color: #fff;
-    margin: .3rem;
+.perfil .shape{
+
+    background-color: #002244;
+    height: 250px;
+    width: 400px;
+    margin-left: -20px;
+    position: relative;
+    top: -80px;
+    box-shadow: 0 2px 15px #000;
+    transform: rotate(25deg);
 }
 
-.Conctac .box-container .box .icons a:hover {
+.perfil .image{
 
-    background: var(--main-color);
+    height: 100px;
+    width: 100px;
+    background-image: url(../Resources/img/perfil.jpg);
+    position: relative;
+    top: 200px;
+    margin-left: 170px;
+    background-size: cover;
+    border: none;
+    border-radius: 50%;
+    box-shadow: 0 2px 15 px rgb(58, 54, 54);
+    transform: rotate(-20deg);
 }
 
-#red:hover{
-    background: var(--red-color);
+.perfil .title{
+
+    font-size: 15px;
+    padding-bottom: 6px;
+    color: aqua;    
 }
 
-.Conctac .box-container .box .image {
-    padding: 2.5rem 0;
+h3{
+
+    margin-bottom: 10px;
 }
 
-.Conctac .box-container .box .image img {
-    height: 25rem;
+p{
+    padding-left: 30px;
+    padding-right: 30px;
+    line-height: 2;
+    color: rgb(105, 100, 109);
+    font-size: 15px;
 }
 
-.Conctac .box-container .box .content h3 {
-    color: #fff;
-    font-size: 2.5rem;
-}
 
-.Conctac .box-container .box .content .stars {
-    padding: 1.5rem;
-}
 
-.Conctac .box-container .box .content .stars i {
-    font-size: 1.7rem;
-    color: var(--main-color);
-}
 
-.Conctac .box-container .box .content .prince{
-
-    color: #fff;
-    font-size: 2.5rem;
-}
-
-.Conctac .box-container .box .content .prince span{
-
-    text-decoration: line-through;
-    font-weight: lighter;
-    font-size: 1.5rem;
-}

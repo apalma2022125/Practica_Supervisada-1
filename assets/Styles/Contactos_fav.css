@@ -1,4 +1,4 @@
-  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,300&display=swap');
 
 :root{
 
@@ -157,7 +157,7 @@ header {
     background: var(--main-color);
 }
 
-#red:hover{
+#red{
     background: var(--red-color);
 }
 
