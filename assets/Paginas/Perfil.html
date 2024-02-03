@@ -1,25 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../Styles/EstLogin.css">
+    <link rel="stylesheet" href="../Styles/Perfil.css">
     <title>Perfil</title>
 </head>
+
 <body>
-    <div class="container">
-        <div class="shape">
-            <div class="image"></div>            
+    <header>
+        <img class="logo" src="../Resources/img/Conctac.png" alt="Logo">
+        <button id="abrir" class="abrir-menu"><i class="bi bi-list"></i></button>
+        <nav class="nav" id="nav">
+            <button class="cerrar-menu" id="cerrar"><i class="bi bi-x"></i></button>
+            <ul class="nav-list">
+                <li><a href="./Perfil.html">Contactos</a></li>
+                <li><a href="./ContactoFav.html">Contactos_Favoritos</a></li>
+                <li><a href="./NuevoContacto.html">Nuevo_Contacto</a></li>
+                <li><a href="./toDolist.html">ToDoList</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <Section class="perfil" id="perfil">
+        <div class="container">
+            <div class="shape">
+                <div class="image"></div>
+            </div>
+            <h3>Ángelo Palma</h3>
+            <h4 class="titulo">Perito En Informatica</h4>
+            <p>
+                Hombre
+                <br>
+                29-Nov-2005
+                <br>
+                apalma-2022125@kinal.edu.gt
+            </p>
         </div>
-        <h3>Ángelo Palma</h3>
-        <h4 class="titulo">Perito En Informatica</h4>
-        <p>
-            Hombre
-            <br>
-            29-Nov-2005
-            <br>
-            apalma-2022125@kinal.edu.gt        
-        </p>
-    </div>
+    </Section>
+    <script src="../Scripts/LogPerfil.js"></script>
 </body>
+
 </html>
